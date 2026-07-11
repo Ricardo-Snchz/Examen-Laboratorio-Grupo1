@@ -1,0 +1,82 @@
+/* Estilo general */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #333;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+            nav ul li a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+                transition: color 0.3s;
+            }
+
+                nav ul li a:hover {
+                    color: #ff6600;
+                }
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #ff6600, #ff8533);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* Imagen */
+section img {
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Secciones */
+section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+    section h3 {
+        color: #ff6600;
+        border-bottom: 2px solid #ff6600;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
