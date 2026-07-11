@@ -6,6 +6,7 @@ Ricardo Enrique Lagos Mendoza
 
 Nombres y Números de Cuenta de los Participantes:
 120140083 - Eduar Moreno
+
 122070020 - Jose Sanchez
 120160026 - Erasmo Mejía
 122070150 - Bryan Campigotti
